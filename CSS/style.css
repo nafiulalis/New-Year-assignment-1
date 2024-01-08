@@ -26,7 +26,7 @@ body {
     font-weight: 400;
 }
 
-.btn-primary{
+.btn-primary {
     position: absolute;
     border: none;
     color: white;
@@ -42,6 +42,7 @@ body {
 .btn-primary:hover {
     background-color: rgb(182, 3, 3);
     color: white;
+    transition: all 0.3s ease-in;
 }
 
 
@@ -170,6 +171,7 @@ body {
 .party-section-btn:hover {
     background-color: darkred;
     color: white;
+    transition: all 0.3s ease-in;
 }
 
 /* Meeting Place Section */
@@ -204,6 +206,65 @@ body {
     font-size: 32px;
     font-weight: 600;
 }
-.meeting-section-btn .btn-primary{
+
+.meeting-section-btn .btn-primary {
     margin-left: 575px;
+}
+
+/* Best Offer 2024 Section */
+
+.best-offer-section-2024 {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.best-offer-details h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.best-offer-details h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.best-offer-details p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 390px;
+}
+
+.best-offer-circle img {
+    width: 360px;
+    height: 360px;
+    border: 15px solid red;
+    border-radius: 100%;
+    padding: 50px;
+}
+
+.best-offer-2024 h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.best-offer-2024 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 275px;
+    height:100px;
 }
