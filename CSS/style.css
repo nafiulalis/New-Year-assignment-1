@@ -19,6 +19,13 @@ body {
     font-weight: 900;
 }
 
+.banner-discription {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 
 /* New Year Banner Section  */
 
@@ -90,4 +97,55 @@ body {
     height: 500px;
     display: flex;
     margin: 50px auto;
+}
+
+/* Party Seciton style */
+
+.party-section {
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.party-section-box{
+    width: 1320px;
+    height: 600px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.137);
+}
+
+.party-section h1 {
+    padding-top: 126px;
+    margin-left: 126px ;
+    text-align: left;
+}
+.party-section p{
+    margin: 0;
+    padding-top: 25px;
+    padding-left: 120px;
+    width: 700px ;
+    height: 60px;
+} 
+.party-section-btn{
+    position: absolute;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 3px solid darkred;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.party-section-btn:hover{
+    background-color: darkred ;
+    color:white;
 }
