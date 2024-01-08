@@ -422,7 +422,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1320px;
-    height: auto;
+    padding-bottom: 50px;
     background-color: rgba(255, 0, 0, 0.05);
     border-radius: 15px;
     background-position: center;
@@ -456,15 +456,28 @@ body {
     margin-top: 22px;
 
 }
-.input-section input{
-    background: #FFF;
-    width: 650px;
-    height: 70px;
-    margin-left: 336px;
-    margin-right: auto;
-    align-items: center;
-    border-radius: 10px;
+.input-section {
+    display: flex;
+    justify-content: center;
 }
-.input-section .btn-primary{
-    margin-right: 50px;
+.input-section input{
+    width: 400px;
+    height: 70px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 20px;
+}
+.input-section button{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #F00;
+    color: #FFF;
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.input-section button:hover{
+    background-color: rgb(182, 5, 5);
+    transition: 0.3s ease-in;
 }
