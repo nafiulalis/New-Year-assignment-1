@@ -328,14 +328,15 @@ body {
 }
 
 
-.discount-box{
+.discount-box {
     position: relative;
 }
-.discount-box .discount{
+
+.discount-box .discount {
     position: absolute;
     left: -30%;
     top: 10%;
-    
+
 }
 
 .red-bg {
@@ -362,7 +363,7 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 .awasome-portfolio h2 {
@@ -381,30 +382,89 @@ body {
     font-weight: 400;
     margin-top: 0;
 }
-.portfolio-product{
+
+.portfolio-product {
     width: 1320px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }
-.portfolio-product-list-1{
+
+.portfolio-product-list-1 {
     margin-bottom: 20px;
     margin-top: 0;
     display: flex;
     gap: 20px;
-    
+
 }
-.portfolio-product-list-1 img:hover{
+
+.portfolio-product-list-1 img:hover {
     filter: grayscale(100%);
     transition: 0.3s ease-in-out;
 }
-.portfolio-product-list-2{
+
+.portfolio-product-list-2 {
     margin-top: 0;
     margin-bottom: 20px;
     display: flex;
     gap: 20px;
 }
-.portfolio-product-list-2 img:hover{
+
+.portfolio-product-list-2 img:hover {
     filter: grayscale(100%);
     transition: 0.3s ease-in-out;
+}
+
+/* Subscriber Section */
+
+.subscriber-section {
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1320px;
+    height: auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 15px;
+    background-position: center;
+    margin-bottom: 120px;
+}
+
+.subscriber-section img {
+    margin-top: 80px;
+    margin-left: 585px;
+    margin-right: 585px;
+}
+
+.subscriber-section h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.subscriber-section p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+
+}
+.input-section input{
+    background: #FFF;
+    width: 650px;
+    height: 70px;
+    margin-left: 336px;
+    margin-right: auto;
+    align-items: center;
+    border-radius: 10px;
+}
+.input-section .btn-primary{
+    margin-right: 50px;
 }
