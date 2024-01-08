@@ -25,6 +25,7 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
 .btn-primary{
     position: absolute;
     border: none;
@@ -34,11 +35,12 @@ body {
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
-    background:#F00 ;
+    background: #F00;
     border-radius: 5px;
 }
+
 .btn-primary:hover {
-    background-color: rgb(182, 3, 3) ;
+    background-color: rgb(182, 3, 3);
     color: white;
 }
 
@@ -181,7 +183,8 @@ body {
     margin-right: auto;
     margin-top: 120px;
 }
-.meeting-places-data{
+
+.meeting-places-data {
     padding-top: 100px;
     padding-left: auto;
     padding-right: auto;
@@ -192,7 +195,7 @@ body {
     text-align: center;
     font-size: 32px;
     font-weight: 600;
-    text-transform: capitalize;  
+    text-transform: capitalize;
 }
 
 .meeting-place-section h3>span {
@@ -200,14 +203,7 @@ body {
     text-align: center;
     font-size: 32px;
     font-weight: 600;
-    text-transform: capitalize;
 }
-.meeting-section-btn{
-    width: 100%;
-}
-.meeting-btn{
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    display: inline-block;
+.meeting-section-btn .btn-primary{
+    margin-left: 575px;
 }
